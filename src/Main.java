@@ -88,7 +88,7 @@ public class Main {
         }
         for(int p=2;p<primenumber;p++) {
             if(primenumber % p == 0) {
-                System.out.println("NO");
+            System.out.println("Not a prime number");
                 return;
             }
             break;
